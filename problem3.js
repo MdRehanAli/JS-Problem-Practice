@@ -2,8 +2,8 @@
 
 function paperRequirements(book1, book2, book3) {
 
-    if (typeof book1 !== 0 || typeof book2 !== 0 || typeof book3 !== 0) {
-        console.log('Please Enter a Number.')
+    if (typeof book1 !== 'number' || typeof book2 !== 'number' || typeof book3 !== 'number') {
+        return 'Please Enter a Number'
     }
 
     const paperForBook1 = 100;

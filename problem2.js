@@ -1,8 +1,8 @@
 // Centimeter to meter: by using centimeterToMeter()
 
 function centimeterToMeter(centimeter) {
-    if (centimeter !== Number) {
-        console.log('Please Enter a number.');
+    if (centimeter !== 'number') {
+        return 'Please Enter a number.';
     }
 
     const meters = centimeter / 1000;
@@ -13,4 +13,4 @@ function centimeterToMeter(centimeter) {
 
 const centimeter = 10000;
 const centimeters = centimeterToMeter(centimeter);
-console.log(centimeter, 'centimeters =', centimeters, 'meters');
+console.log(centimeters);
