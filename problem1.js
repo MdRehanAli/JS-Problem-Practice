@@ -1,9 +1,11 @@
+// Feet to inch convert: feetToInch()
+
 function feetToInch(feet) {
     if (typeof feet !== Number) {
         console.log('Please Enter a number.');
     }
 
-    const inches = feet *12;
+    const inches = feet * 12;
     return inches;
 
 }
